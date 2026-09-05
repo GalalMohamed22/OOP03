@@ -1,4 +1,5 @@
 ﻿using System.ComponentModel;
+using System.Net.NetworkInformation;
 
 namespace Assignment03OOP
 {
@@ -19,7 +20,21 @@ namespace Assignment03OOP
 
             #endregion
 
+            #region Question02
 
+            //(a) The sealed keyword prevents other classes from inheriting or deriving from it
+
+
+
+             // (c)
+            // Sealed Class prevents other classes from inheriting from it entirely.
+           // Sealed Method prevents a specific method from being overridden in child classes
+
+
+
+           // (c) No, it cannot, The sealed modifier explicitly locks the method's implementation. 
+
+            #endregion
 
 
 
